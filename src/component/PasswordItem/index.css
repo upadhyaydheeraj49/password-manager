@@ -1,0 +1,70 @@
+li {
+  border: 1px solid #94a3b8;
+  border-radius: 10px;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  li {
+    width: fit-content;
+    margin-right: 10px;
+  }
+}
+.saved-datails {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .saved-datails {
+    margin-right: 20px;
+  }
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px 12px;
+  border-radius: 50%;
+  background-color: #7683cb;
+  margin: 10px;
+  color: #fff;
+  font-weight: 500;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+.user-details p {
+  margin: 4px;
+}
+.user-details img {
+  height: 20px;
+  width: 120px;
+}
+.saved-website {
+  font-size: 17px;
+  color: #f8fafc;
+}
+.saved-username {
+  font-size: 15px;
+  color: #b6c3ca;
+}
+.saved-password {
+  font-size: 14px;
+  color: #f8fafc;
+}
+.btn-delete {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.btn-delete img {
+  height: 25px;
+  width: 25px;
+}
